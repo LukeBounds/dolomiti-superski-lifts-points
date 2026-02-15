@@ -167,6 +167,15 @@ function DayPlannerInner({
     [entries]
   );
 
+  const euroCosts = useMemo(() => {
+    if (totalPoints === 0) return null;
+    return [
+      { rate: "600 @ €50", cost: (totalPoints / 600) * 50 },
+      { rate: "1,000 @ €80", cost: (totalPoints / 1000) * 80 },
+      { rate: "2,100 @ €150", cost: (totalPoints / 2100) * 150 },
+    ];
+  }, [totalPoints]);
+
   const toggleRegion = useCallback((regionId: string) => {
     setExpandedRegions((prev) => {
       const next = new Set(prev);
@@ -390,13 +399,27 @@ function DayPlannerInner({
                 ))}
               </div>
 
-              <div className="mt-4 flex items-center justify-between border-t border-zinc-200 pt-3 dark:border-zinc-700">
-                <span className="font-semibold text-zinc-900 dark:text-zinc-50">
-                  Total
-                </span>
-                <span className="text-lg font-bold font-mono text-zinc-900 dark:text-zinc-50">
-                  {totalPoints} pts
-                </span>
+              <div className="mt-4 border-t border-zinc-200 pt-3 dark:border-zinc-700">
+                <div className="flex items-center justify-between">
+                  <span className="font-semibold text-zinc-900 dark:text-zinc-50">
+                    Total
+                  </span>
+                  <span className="text-lg font-bold font-mono text-zinc-900 dark:text-zinc-50">
+                    {totalPoints} pts
+                  </span>
+                </div>
+                {euroCosts && (
+                  <div className="mt-2 rounded-md bg-zinc-100 p-2 text-xs dark:bg-zinc-800">
+                    <div className="space-y-0.5 text-zinc-500 dark:text-zinc-400">
+                      {euroCosts.map((tier) => (
+                        <div key={tier.rate} className="flex justify-between">
+                          <span>{tier.rate}</span>
+                          <span className="font-mono">&euro;{tier.cost.toFixed(2)}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
               <div className="mt-3 flex gap-2">
