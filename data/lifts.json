@@ -1,0 +1,3238 @@
+{
+  "regions": [
+    {
+      "id": "alta-badia",
+      "numericId": 1,
+      "name": "Alta Badia",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Col Alto",
+          "up": 62,
+          "down": 62,
+          "liftType": "3"
+        },
+        {
+          "nr": "2",
+          "name": "Braia Fraida",
+          "up": 44,
+          "down": 22,
+          "liftType": "5"
+        },
+        {
+          "nr": "3",
+          "name": "Roby",
+          "up": 35,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "4",
+          "name": "Pre dai Corf",
+          "up": 31,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "5",
+          "name": "Piz la Ila",
+          "up": 113,
+          "down": 113
+        },
+        {
+          "nr": "6",
+          "name": "Bamby",
+          "up": 44,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "7",
+          "name": "La Brancia",
+          "up": 37,
+          "down": null
+        },
+        {
+          "nr": "8",
+          "name": "Biok",
+          "up": 41,
+          "down": null
+        },
+        {
+          "nr": "9",
+          "name": "Ciampai",
+          "up": 36,
+          "down": null
+        },
+        {
+          "nr": "10",
+          "name": "Codes",
+          "up": 19,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "11",
+          "name": "Piz Sorega",
+          "up": 72,
+          "down": 72,
+          "liftType": "3"
+        },
+        {
+          "nr": "12",
+          "name": "Armentarola",
+          "up": 24,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "13",
+          "name": "Capanna Nera",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "14",
+          "name": "Pralongià I",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "15",
+          "name": "Pralongià",
+          "up": 48,
+          "down": 48,
+          "liftType": "5"
+        },
+        {
+          "nr": "16",
+          "name": "Pralongià II",
+          "up": 45,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "17",
+          "name": "Crep de Mont",
+          "up": 39,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "18",
+          "name": "Abrusé",
+          "up": 20,
+          "down": 20,
+          "liftType": "1"
+        },
+        {
+          "nr": "19",
+          "name": "Boè",
+          "up": 91,
+          "down": 91,
+          "liftType": "3"
+        },
+        {
+          "nr": "20",
+          "name": "Vallon",
+          "up": 44,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "21",
+          "name": "Arlara",
+          "up": 50,
+          "down": 50,
+          "liftType": "5"
+        },
+        {
+          "nr": "22",
+          "name": "La Para",
+          "up": 23,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "23",
+          "name": "Costoratta",
+          "up": 47,
+          "down": null
+        },
+        {
+          "nr": "27",
+          "name": "Incisa",
+          "up": 38,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "29",
+          "name": "Costes da l'Ega",
+          "up": 23,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "30",
+          "name": "La Fraina",
+          "up": 41,
+          "down": null
+        },
+        {
+          "nr": "325",
+          "name": "Pre Ciablun",
+          "up": 18,
+          "down": null
+        },
+        {
+          "nr": "34",
+          "name": "Borest",
+          "up": 50,
+          "down": 50,
+          "liftType": "3"
+        },
+        {
+          "nr": "36",
+          "name": "Sodlisia",
+          "up": 43,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "37",
+          "name": "Pezzei",
+          "up": 21,
+          "down": null
+        },
+        {
+          "nr": "39",
+          "name": "Plans",
+          "up": 54,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "40",
+          "name": "Frara",
+          "up": 66,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "39+40",
+          "name": "Plans - Frara",
+          "up": 120,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "45",
+          "name": "Col Pradat",
+          "up": 53,
+          "down": 53,
+          "liftType": "3"
+        },
+        {
+          "nr": "46",
+          "name": "Colfosco",
+          "up": 60,
+          "down": 60,
+          "liftType": "3"
+        },
+        {
+          "nr": "49",
+          "name": "Stella Alpina",
+          "up": 37,
+          "down": null
+        },
+        {
+          "nr": "50",
+          "name": "Forcelles",
+          "up": 47,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "54",
+          "name": "Colz",
+          "up": 14,
+          "down": 14,
+          "liftType": "5"
+        },
+        {
+          "nr": "55",
+          "name": "Ferata Gran Risa",
+          "up": 12,
+          "down": 12,
+          "liftType": "412"
+        },
+        {
+          "nr": "56",
+          "name": "Gardenazza",
+          "up": 51,
+          "down": 51,
+          "liftType": "2"
+        },
+        {
+          "nr": "57",
+          "name": "La Rüa",
+          "up": 16,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "58",
+          "name": "Doninz",
+          "up": 18,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "59",
+          "name": "Col d'Altin",
+          "up": 16,
+          "down": null
+        },
+        {
+          "nr": "60",
+          "name": "Baby La Crusc",
+          "up": 18,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "61",
+          "name": "La Crusc 1",
+          "up": 79,
+          "down": 79,
+          "liftType": "3"
+        },
+        {
+          "nr": "62",
+          "name": "La Crusc 2",
+          "up": 51,
+          "down": 51,
+          "liftType": "3"
+        },
+        {
+          "nr": "63",
+          "name": "Pradüc",
+          "up": 36,
+          "down": 36,
+          "liftType": "5"
+        },
+        {
+          "nr": "64",
+          "name": "Sponata",
+          "up": 52,
+          "down": null
+        },
+        {
+          "nr": "1/1",
+          "name": "Lagazuoi",
+          "up": 190,
+          "down": 190,
+          "liftType": "1"
+        },
+        {
+          "nr": "42/4",
+          "name": "Val Setus",
+          "up": 65,
+          "down": null
+        },
+        {
+          "nr": "24/6",
+          "name": "Cherz 1",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "31/6",
+          "name": "Cherz 2",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "25/6",
+          "name": "La Vizza",
+          "up": 70,
+          "down": null
+        },
+        {
+          "nr": "28/6",
+          "name": "Masarei",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        }
+      ]
+    },
+    {
+      "id": "val-gardena",
+      "numericId": 2,
+      "name": "Val Gardena – Alpe di Siusi",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Ortisei - Alpe di Siusi (A.A.C. 2S)",
+          "up": 260,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "2",
+          "name": "Ortisei/St.Ulrich - Furnes",
+          "up": 240,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "3",
+          "name": "Furnes - Seceda",
+          "up": 240,
+          "down": null
+        },
+        {
+          "nr": "4",
+          "name": "Resciesa tratto intero",
+          "up": 210,
+          "down": null
+        },
+        {
+          "nr": "4b",
+          "name": "Resciesa intermedia - Ortisei",
+          "up": 110,
+          "down": null
+        },
+        {
+          "nr": "6",
+          "name": "Furdenan",
+          "up": 39,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "7",
+          "name": "Palmer",
+          "up": 29,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "8",
+          "name": "Fermeda",
+          "up": 230,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "10",
+          "name": "Resciesa II Tronco",
+          "up": 110,
+          "down": null
+        },
+        {
+          "nr": "11",
+          "name": "Gherdeina Ronda",
+          "up": 130,
+          "down": null
+        },
+        {
+          "nr": "12",
+          "name": "Cisles",
+          "up": 80,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "14",
+          "name": "Col Raiser",
+          "up": 210,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "15",
+          "name": "S. Christina - Monte Pana",
+          "up": 120,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "16",
+          "name": "Plan de Tieja",
+          "up": 20,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "17",
+          "name": "Saslong",
+          "up": 260,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "18",
+          "name": "Sochers - Ciampinoi",
+          "up": 230,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "19",
+          "name": "Sochers",
+          "up": 200,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "21",
+          "name": "Tramans",
+          "up": 40,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "22",
+          "name": "Piza Pranseies",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "23",
+          "name": "Mont Seura",
+          "up": 180,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "24",
+          "name": "Tschucky",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "25",
+          "name": "Val",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "26",
+          "name": "Puntea",
+          "up": 21,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "27",
+          "name": "Cendevaves",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "28",
+          "name": "Parallel",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "29",
+          "name": "Ciampinoi",
+          "up": 200,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "30",
+          "name": "Danter",
+          "up": 150,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "40",
+          "name": "Cepies",
+          "up": 85,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "31",
+          "name": "Costabella",
+          "up": 40,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "32",
+          "name": "Nives",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "33",
+          "name": "Fungeia",
+          "up": 30,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "34",
+          "name": "Larciunei",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "35",
+          "name": "Cadepunt",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "36",
+          "name": "Biancaneve",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "37",
+          "name": "Risaccia",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "37b",
+          "name": "Risaccia II",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "38",
+          "name": "Campo Freina",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "39",
+          "name": "Terza Punta",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "54",
+          "name": "Mickey Mouse",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "41",
+          "name": "Cir",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "42",
+          "name": "Val Setus",
+          "up": 65,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "43",
+          "name": "Panorama",
+          "up": 28,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "44",
+          "name": "Piz Sella",
+          "up": 100,
+          "down": null
+        },
+        {
+          "nr": "45",
+          "name": "Piz Seteur I",
+          "up": 50,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "46",
+          "name": "Piz Seteur II",
+          "up": 50,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "47",
+          "name": "Plan de Gralba - Senoner",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "48",
+          "name": "Sole / Piz Seteur",
+          "up": 45,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "49",
+          "name": "Città dei Sassi",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "50",
+          "name": "Gran Paradiso",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "51",
+          "name": "Comici I",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "52",
+          "name": "Comici II",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "53",
+          "name": "Sotsasslong",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "56",
+          "name": "Pudra",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "55",
+          "name": "Sasso Levante",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "59",
+          "name": "Sole / Zur Sonne",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "60",
+          "name": "Monte Piz",
+          "up": 85,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "61",
+          "name": "Steger Dellai",
+          "up": 85,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "62",
+          "name": "Panorama (Alpe di Siusi)",
+          "up": 85,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "63",
+          "name": "Bullaccia / Puflatsch",
+          "up": 56,
+          "down": null,
+          "liftType": "35"
+        },
+        {
+          "nr": "64",
+          "name": "Spitzbühl",
+          "up": 85,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "65",
+          "name": "Florian",
+          "up": 140,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "66",
+          "name": "Ludy",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "67",
+          "name": "Leo Demetz",
+          "up": 35,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "68",
+          "name": "Sanon",
+          "up": 35,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "69",
+          "name": "Mezdì",
+          "up": 55,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "70",
+          "name": "Floralpina",
+          "up": 110,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "71",
+          "name": "Punta d'Oro / Goldknopf",
+          "up": 57,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "73",
+          "name": "Laurin",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "74",
+          "name": "Paradiso",
+          "up": 46,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "75",
+          "name": "Bamby",
+          "up": 32,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "76",
+          "name": "Eurotel 1",
+          "up": 21,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "77",
+          "name": "Euro",
+          "up": 37,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "78",
+          "name": "Strega / Hexe",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "79",
+          "name": "Marinzen",
+          "up": 125,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "81",
+          "name": "Catores",
+          "up": 80,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "83",
+          "name": "Siusi - Alpe di Siusi / Seis - Seiser Alm",
+          "up": 210,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "82",
+          "name": "Dorflift",
+          "up": 23,
+          "down": null,
+          "liftType": "1"
+        }
+      ]
+    },
+    {
+      "id": "val-di-fassa",
+      "numericId": 3,
+      "name": "Val di Fassa / Carezza",
+      "lifts": [
+        {
+          "nr": "101",
+          "name": "Canazei - Pecol",
+          "up": 90,
+          "down": 90,
+          "liftType": "3"
+        },
+        {
+          "nr": "102",
+          "name": "Pecol - Col dei Rossi",
+          "up": 95,
+          "down": 95
+        },
+        {
+          "nr": "103",
+          "name": "Sass Pordoi",
+          "up": 170,
+          "down": 170
+        },
+        {
+          "nr": "104",
+          "name": "Toè",
+          "up": 80,
+          "down": 80,
+          "liftType": "3"
+        },
+        {
+          "nr": "105",
+          "name": "Pian Frataces - Gherdecia",
+          "up": 95,
+          "down": 95,
+          "liftType": "3"
+        },
+        {
+          "nr": "106",
+          "name": "Kristiania",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "107",
+          "name": "Sass Becè",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "108",
+          "name": "Belvedere",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "123",
+          "name": "Gonzaga",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "141",
+          "name": "Campitello - Col Rodella",
+          "up": 170,
+          "down": 170
+        },
+        {
+          "nr": "151",
+          "name": "Salei - Rodella",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "152",
+          "name": "Rodella - Des Alpes",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "153",
+          "name": "Norei - 5Dita",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "154",
+          "name": "Cavazes - Grohmann",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "155",
+          "name": "Pradel Rodella",
+          "up": 100,
+          "down": 100,
+          "liftType": "3"
+        },
+        {
+          "nr": "156",
+          "name": "Gabia",
+          "up": 26,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "161",
+          "name": "Col de Lin",
+          "up": 35,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "162",
+          "name": "Avisio",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "130",
+          "name": "Alba - Col dei Rossi",
+          "up": 155,
+          "down": 155
+        },
+        {
+          "nr": "131",
+          "name": "Alba - Ciampac",
+          "up": 120,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "132",
+          "name": "Ciampac - Sella Brunech",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "133",
+          "name": "Delle Baite",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "134",
+          "name": "Sasso di Rocca",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "136",
+          "name": "Roseal - Giumela",
+          "up": 40,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "137",
+          "name": "Orsa Maggiore",
+          "up": 50,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "201",
+          "name": "Pozza - Buffaure",
+          "up": 140,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "202",
+          "name": "Buffaure di Sotto",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "204",
+          "name": "Tappeto Buffaure",
+          "up": 29,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "205",
+          "name": "Aloch",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "206",
+          "name": "Col de Valvacin",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "207",
+          "name": "Pala del Geiger",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "211",
+          "name": "Vigo - Catinaccio",
+          "up": 150,
+          "down": 150
+        },
+        {
+          "nr": "212",
+          "name": "Ciampedie Campo Scuola",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "215",
+          "name": "Pian Peccei - Ciampedie",
+          "up": 70,
+          "down": 70,
+          "liftType": "5"
+        },
+        {
+          "nr": "217",
+          "name": "Vajolet 1",
+          "up": 90,
+          "down": 90,
+          "liftType": "1"
+        },
+        {
+          "nr": "218",
+          "name": "Vajolet 2",
+          "up": 90,
+          "down": 90,
+          "liftType": "5"
+        },
+        {
+          "nr": "223",
+          "name": "Pian Peccei - Pramartin",
+          "up": 80,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "400",
+          "name": "Tires",
+          "up": 180,
+          "down": 120,
+          "liftType": "1"
+        },
+        {
+          "nr": "401",
+          "name": "Laurin 1",
+          "up": 180,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "402",
+          "name": "König Laurin 1",
+          "up": 90,
+          "down": 90,
+          "liftType": "3"
+        },
+        {
+          "nr": "403",
+          "name": "König Laurin 2",
+          "up": 90,
+          "down": 90,
+          "liftType": "6"
+        },
+        {
+          "nr": "404",
+          "name": "Tschein",
+          "up": 90,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "405",
+          "name": "Nani",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "407",
+          "name": "Franzin",
+          "up": 90,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "410",
+          "name": "Golf 1",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "417",
+          "name": "Golf 2",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "411",
+          "name": "Paolina",
+          "up": 63,
+          "down": 63,
+          "liftType": "5"
+        },
+        {
+          "nr": "412",
+          "name": "Hubertus",
+          "up": 54,
+          "down": 54,
+          "liftType": "3"
+        },
+        {
+          "nr": "414",
+          "name": "Pra di Tori",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "416",
+          "name": "Le Pope",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        }
+      ]
+    },
+    {
+      "id": "arabba",
+      "numericId": 4,
+      "name": "Arabba – Marmolada",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Portavescovo",
+          "up": 160,
+          "down": 160,
+          "liftType": "6"
+        },
+        {
+          "nr": "3",
+          "name": "Portados",
+          "up": 90,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "9",
+          "name": "Carpazza",
+          "up": 85,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "10",
+          "name": "Sass de la Vegla",
+          "up": 63,
+          "down": null
+        },
+        {
+          "nr": "11",
+          "name": "Mesola",
+          "up": 63,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "2",
+          "name": "Arabba - Pescoi",
+          "up": 125,
+          "down": 125,
+          "liftType": "5"
+        },
+        {
+          "nr": "4",
+          "name": "Pescoi - Forc. Europa",
+          "up": 125,
+          "down": 125
+        },
+        {
+          "nr": "2+4",
+          "name": "Arabba - Forc. Europa",
+          "up": 160,
+          "down": 160,
+          "liftType": "3"
+        },
+        {
+          "nr": "12",
+          "name": "Antercrëp",
+          "up": 85,
+          "down": 85,
+          "liftType": "5"
+        },
+        {
+          "nr": "13",
+          "name": "Padon",
+          "up": 90,
+          "down": 90
+        },
+        {
+          "nr": "5",
+          "name": "Burz",
+          "up": 70,
+          "down": 70,
+          "liftType": "5"
+        },
+        {
+          "nr": "6",
+          "name": "Le Pale",
+          "up": 70,
+          "down": 70,
+          "liftType": "5"
+        },
+        {
+          "nr": "7",
+          "name": "Campolongo",
+          "up": 70,
+          "down": 70
+        },
+        {
+          "nr": "8",
+          "name": "Arabba Fly",
+          "up": 40,
+          "down": 40,
+          "liftType": "5"
+        },
+        {
+          "nr": "25",
+          "name": "La Vizza",
+          "up": 70,
+          "down": null
+        },
+        {
+          "nr": "28",
+          "name": "Masarei",
+          "up": 70,
+          "down": null
+        },
+        {
+          "nr": "24",
+          "name": "Cherz 1",
+          "up": 70,
+          "down": null
+        },
+        {
+          "nr": "31",
+          "name": "Cherz 2",
+          "up": 70,
+          "down": null
+        },
+        {
+          "nr": "14",
+          "name": "Camposcuola",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "40+43",
+          "name": "Malga - Punta Rocca",
+          "up": 400,
+          "down": 90,
+          "liftType": "1"
+        },
+        {
+          "nr": "124",
+          "name": "Lezuo",
+          "up": 80,
+          "down": 40,
+          "liftType": "2"
+        },
+        {
+          "nr": "125",
+          "name": "Maria",
+          "up": 30,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "126",
+          "name": "Fodom",
+          "up": 88,
+          "down": 44,
+          "liftType": "3"
+        },
+        {
+          "nr": "127",
+          "name": "Alpenrose",
+          "up": 44,
+          "down": null,
+          "liftType": "2"
+        }
+      ]
+    },
+    {
+      "id": "3-zinnen",
+      "numericId": 5,
+      "name": "3 Zinnen Dolomites",
+      "lifts": [
+        {
+          "nr": "11",
+          "name": "Helmjet Sexten",
+          "up": 190,
+          "down": null,
+          "liftType": "3",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "12",
+          "name": "Hawaii",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "13",
+          "name": "Versciaco - Monte Elmo",
+          "up": 190,
+          "down": null,
+          "liftType": "3",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "14",
+          "name": "Mittelstation",
+          "up": 70,
+          "down": null,
+          "liftType": "5",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "15",
+          "name": "Übungslift",
+          "up": 50,
+          "down": null,
+          "liftType": "5",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "16",
+          "name": "Hasenköpfl",
+          "up": 70,
+          "down": null,
+          "liftType": "5",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "17",
+          "name": "Wiese",
+          "up": 30,
+          "down": null,
+          "liftType": "1",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "18",
+          "name": "Raut",
+          "up": 55,
+          "down": null,
+          "liftType": "5",
+          "zone": "Helm / Monte Elmo"
+        },
+        {
+          "nr": "40",
+          "name": "Stiergarten",
+          "up": 190,
+          "down": null,
+          "liftType": "3",
+          "zone": "Stiergarten"
+        },
+        {
+          "nr": "40b",
+          "name": "Stiergarten Mitte-Berg",
+          "up": 110,
+          "down": null,
+          "liftType": "3",
+          "zone": "Stiergarten"
+        },
+        {
+          "nr": "40c",
+          "name": "Stiergarten Mitte-Tal",
+          "up": 35,
+          "down": null,
+          "liftType": "3",
+          "zone": "Stiergarten"
+        },
+        {
+          "nr": "41",
+          "name": "Drei Zinnen",
+          "up": 190,
+          "down": null,
+          "liftType": "3",
+          "zone": "Stiergarten"
+        },
+        {
+          "nr": "3",
+          "name": "Rotwand",
+          "up": 190,
+          "down": null,
+          "liftType": "3",
+          "zone": "Rotwand / Croda Rossa"
+        },
+        {
+          "nr": "4",
+          "name": "Rotwandwiesen",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Rotwand / Croda Rossa"
+        },
+        {
+          "nr": "5",
+          "name": "Porzen",
+          "up": 70,
+          "down": null,
+          "liftType": "5",
+          "zone": "Rotwand / Croda Rossa"
+        },
+        {
+          "nr": "6",
+          "name": "Heinrich Harrer",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Rotwand / Croda Rossa"
+        },
+        {
+          "nr": "7",
+          "name": "Brugger",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Rotwand / Croda Rossa"
+        },
+        {
+          "nr": "10",
+          "name": "Signaue",
+          "up": 110,
+          "down": null,
+          "liftType": "3",
+          "zone": "Rotwand / Croda Rossa"
+        },
+        {
+          "nr": "19",
+          "name": "Haunold",
+          "up": 180,
+          "down": null,
+          "liftType": "5",
+          "zone": "Haunold / Baranci"
+        },
+        {
+          "nr": "20",
+          "name": "Doris",
+          "up": 40,
+          "down": null,
+          "liftType": "1",
+          "zone": "Haunold / Baranci"
+        },
+        {
+          "nr": "21",
+          "name": "Untertal",
+          "up": 40,
+          "down": null,
+          "liftType": "1",
+          "zone": "Haunold / Baranci"
+        },
+        {
+          "nr": "22",
+          "name": "Lärchen",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Haunold / Baranci"
+        },
+        {
+          "nr": "23",
+          "name": "Erschbaum",
+          "up": 30,
+          "down": null,
+          "liftType": "1",
+          "zone": "Haunold / Baranci"
+        },
+        {
+          "nr": "50",
+          "name": "Col d'la Tenda",
+          "up": 110,
+          "down": null,
+          "liftType": "5",
+          "zone": "Padola"
+        },
+        {
+          "nr": "51",
+          "name": "Cenerentola",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Padola"
+        },
+        {
+          "nr": "8",
+          "name": "Waldheim I",
+          "up": 35,
+          "down": null,
+          "liftType": "1",
+          "zone": "Waldheim"
+        },
+        {
+          "nr": "9",
+          "name": "Waldheim II",
+          "up": 30,
+          "down": null,
+          "liftType": "1",
+          "zone": "Waldheim"
+        },
+        {
+          "nr": "1",
+          "name": "Kreuzberg I",
+          "up": 40,
+          "down": null,
+          "liftType": "1",
+          "zone": "Kreuzbergpass / Passo Monte Croce"
+        },
+        {
+          "nr": "26",
+          "name": "Trenker",
+          "up": 40,
+          "down": null,
+          "liftType": "1",
+          "zone": "Toblach / Dobbiaco"
+        },
+        {
+          "nr": "27",
+          "name": "Rienza",
+          "up": 40,
+          "down": null,
+          "liftType": "1",
+          "zone": "Toblach / Dobbiaco"
+        },
+        {
+          "nr": "38",
+          "name": "Sonnleiten",
+          "up": 45,
+          "down": null,
+          "liftType": "1",
+          "zone": "Prags / Braies"
+        },
+        {
+          "nr": "39",
+          "name": "Kameriot",
+          "up": 45,
+          "down": null,
+          "liftType": "1",
+          "zone": "Prags / Braies"
+        }
+      ]
+    },
+    {
+      "id": "kronplatz",
+      "numericId": 6,
+      "name": "Kronplatz / Plan de Corones",
+      "lifts": [
+        {
+          "nr": "100",
+          "name": "Kronplatz I",
+          "up": 133,
+          "down": 133
+        },
+        {
+          "nr": "101",
+          "name": "Kronplatz II",
+          "up": 80,
+          "down": 80
+        },
+        {
+          "nr": "100+101",
+          "name": "Kronplatz 1+2",
+          "up": 213,
+          "down": 213
+        },
+        {
+          "nr": "102",
+          "name": "Kronplatz 2000",
+          "up": 170,
+          "down": 170,
+          "liftType": "3"
+        },
+        {
+          "nr": "103",
+          "name": "Belvedere",
+          "up": 70,
+          "down": null
+        },
+        {
+          "nr": "105",
+          "name": "Sonne",
+          "up": 50,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "106",
+          "name": "Korer",
+          "up": 60,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "109",
+          "name": "Marchner",
+          "up": 85,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "109+103",
+          "name": "Marchner + Belvedere",
+          "up": 155,
+          "down": null
+        },
+        {
+          "nr": "112",
+          "name": "Ried",
+          "up": 123,
+          "down": 123,
+          "liftType": "3"
+        },
+        {
+          "nr": "113",
+          "name": "Gipfelbahn",
+          "up": 90,
+          "down": 90,
+          "liftType": "3"
+        },
+        {
+          "nr": "112+113",
+          "name": "Ried + Gipfelbahn",
+          "up": 213,
+          "down": 213,
+          "liftType": "3"
+        },
+        {
+          "nr": "201",
+          "name": "Ruis",
+          "up": 90,
+          "down": 50,
+          "liftType": "3"
+        },
+        {
+          "nr": "202",
+          "name": "Piz de Plaies",
+          "up": 120,
+          "down": 60,
+          "liftType": "3"
+        },
+        {
+          "nr": "202a",
+          "name": "Piz de Plaies I A",
+          "up": 70,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "203",
+          "name": "Skitrans Bronta",
+          "up": 40,
+          "down": 40,
+          "liftType": "3"
+        },
+        {
+          "nr": "204",
+          "name": "Pre da Peres",
+          "up": 60,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "205",
+          "name": "Miara",
+          "up": 70,
+          "down": 40,
+          "liftType": "3"
+        },
+        {
+          "nr": "206",
+          "name": "Pedagà",
+          "up": 50,
+          "down": null
+        },
+        {
+          "nr": "207",
+          "name": "Cianross",
+          "up": 40,
+          "down": null
+        },
+        {
+          "nr": "208",
+          "name": "Col Toron",
+          "up": 70,
+          "down": 40,
+          "liftType": "3"
+        },
+        {
+          "nr": "210",
+          "name": "Costa",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "211",
+          "name": "Rara",
+          "up": 50,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "215",
+          "name": "Piculin",
+          "up": 90,
+          "down": 50
+        },
+        {
+          "nr": "301",
+          "name": "Olang I",
+          "up": 126,
+          "down": 126
+        },
+        {
+          "nr": "302",
+          "name": "Olang II",
+          "up": 64,
+          "down": 64,
+          "liftType": "3"
+        },
+        {
+          "nr": "301+302",
+          "name": "Olang I + II",
+          "up": 190,
+          "down": 190,
+          "liftType": "2"
+        },
+        {
+          "nr": "303",
+          "name": "Arndt",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "304",
+          "name": "Alpen connecting",
+          "up": 100,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "308",
+          "name": "Plateau",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "310",
+          "name": "Riepen",
+          "up": 48,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "403",
+          "name": "Guggenberg",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "404",
+          "name": "Berglift",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "405",
+          "name": "Pichl Gsies",
+          "up": 27,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "501",
+          "name": "Terenten",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "601",
+          "name": "Antermoia",
+          "up": 28,
+          "down": null,
+          "liftType": "1"
+        }
+      ]
+    },
+    {
+      "id": "cortina",
+      "numericId": 7,
+      "name": "Cortina d'Ampezzo",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Falzarego - Lagazuoi",
+          "up": 190,
+          "down": 190
+        },
+        {
+          "nr": "2",
+          "name": "Falzarego - Col Gallina",
+          "up": 75,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "3",
+          "name": "Col Gallina",
+          "up": 65,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "4",
+          "name": "5 Torri",
+          "up": 190,
+          "down": 190,
+          "liftType": "5"
+        },
+        {
+          "nr": "5",
+          "name": "Averau",
+          "up": 190,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "7",
+          "name": "Fedare",
+          "up": 180,
+          "down": 180,
+          "liftType": "5"
+        },
+        {
+          "nr": "8",
+          "name": "Croda Negra",
+          "up": 115,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "14",
+          "name": "Olimpia",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "15",
+          "name": "Lacedel - Socrepes",
+          "up": 100,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "16",
+          "name": "Baby Socrepes",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "19",
+          "name": "Tofana Express",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "21",
+          "name": "Rumerlo - Duca d'Aosta",
+          "up": 100,
+          "down": 100,
+          "liftType": "1"
+        },
+        {
+          "nr": "22",
+          "name": "Duca d'Aosta - Pomedes",
+          "up": 80,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "25a",
+          "name": "Cortina - Colfiere",
+          "up": 90,
+          "down": 90,
+          "liftType": "3"
+        },
+        {
+          "nr": "25b",
+          "name": "Colfiere - Col Druscié",
+          "up": 90,
+          "down": 90,
+          "liftType": "3"
+        },
+        {
+          "nr": "25",
+          "name": "Cortina - Col Druscié",
+          "up": 160,
+          "down": 160,
+          "liftType": "3"
+        },
+        {
+          "nr": "26",
+          "name": "Col Druscié - Ra Valles",
+          "up": 160,
+          "down": 160,
+          "liftType": "1"
+        },
+        {
+          "nr": "27",
+          "name": "Ra Valles - Cima Tofana",
+          "up": null,
+          "down": null
+        },
+        {
+          "nr": "28",
+          "name": "Bus Tofana",
+          "up": 100,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "29",
+          "name": "Cacciatori",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "51",
+          "name": "Cortina - Mandres - Faloria",
+          "up": 210,
+          "down": 210,
+          "liftType": "6"
+        },
+        {
+          "nr": "52",
+          "name": "Tondi Faloria",
+          "up": 75,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "54",
+          "name": "Vitelli",
+          "up": 120,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "55",
+          "name": "Rio Gere - Pian Bigontina",
+          "up": 70,
+          "down": 70,
+          "liftType": "5"
+        },
+        {
+          "nr": "56",
+          "name": "Pian Bigontina",
+          "up": 110,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "57",
+          "name": "Rio Gere - Son Forca",
+          "up": 170,
+          "down": 170,
+          "liftType": "5"
+        },
+        {
+          "nr": "59",
+          "name": "Padeon",
+          "up": 90,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "61",
+          "name": "Misurina - Col de Varda",
+          "up": 110,
+          "down": 110,
+          "liftType": "5"
+        },
+        {
+          "nr": "62",
+          "name": "Loita",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "71",
+          "name": "Donariè",
+          "up": 80,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "72",
+          "name": "Tambres",
+          "up": 90,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "73",
+          "name": "San Marco",
+          "up": 110,
+          "down": 110,
+          "liftType": "5"
+        },
+        {
+          "nr": "80",
+          "name": "Taiarezze - Malon",
+          "up": 100,
+          "down": 100,
+          "liftType": "5"
+        },
+        {
+          "nr": "82",
+          "name": "Malon - Monte Agudo",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "84",
+          "name": "Ansiei",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "85",
+          "name": "Son dei Prade - Cianzopé",
+          "up": 105,
+          "down": 105,
+          "liftType": "3"
+        },
+        {
+          "nr": "86",
+          "name": "Cianzopé - Bai de Dones",
+          "up": 95,
+          "down": 95,
+          "liftType": "3"
+        },
+        {
+          "nr": "87",
+          "name": "Son dei Prade - Bai de Dones",
+          "up": 190,
+          "down": 190,
+          "liftType": "3"
+        }
+      ]
+    },
+    {
+      "id": "val-di-fiemme",
+      "numericId": 8,
+      "name": "Val di Fiemme / Obereggen",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Fondovalle - Cavalese",
+          "up": 40,
+          "down": 40,
+          "liftType": "3",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "1a",
+          "name": "Fondovalle - Doss Laresi",
+          "up": 110,
+          "down": 110,
+          "liftType": "3",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "2",
+          "name": "Doss Laresi - Cermis",
+          "up": 110,
+          "down": 110,
+          "liftType": "3",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "3",
+          "name": "Costabella",
+          "up": 50,
+          "down": null,
+          "liftType": "5",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "4",
+          "name": "Lagorai",
+          "up": 40,
+          "down": 40,
+          "liftType": "5",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "5",
+          "name": "Pra Fiori",
+          "up": 50,
+          "down": null,
+          "liftType": "5",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "6",
+          "name": "Campo Scuola Cermis",
+          "up": 20,
+          "down": null,
+          "liftType": "1",
+          "zone": "Alpe Cermis"
+        },
+        {
+          "nr": "11",
+          "name": "Malga Varena",
+          "up": 24,
+          "down": null,
+          "liftType": "1",
+          "zone": "Passo Lavazè"
+        },
+        {
+          "nr": "10",
+          "name": "Corno Bianco",
+          "up": 31,
+          "down": null,
+          "liftType": "5",
+          "zone": "Passo Oclini"
+        },
+        {
+          "nr": "12",
+          "name": "Doladizza",
+          "up": 48,
+          "down": null,
+          "liftType": "5",
+          "zone": "Passo Oclini"
+        },
+        {
+          "nr": "14",
+          "name": "Corno Nero",
+          "up": 26,
+          "down": null,
+          "liftType": "1",
+          "zone": "Passo Oclini"
+        },
+        {
+          "nr": "15",
+          "name": "Pampeago - Monte Agnello",
+          "up": 80,
+          "down": 50,
+          "liftType": "5",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "16",
+          "name": "Tresca",
+          "up": 80,
+          "down": null,
+          "liftType": "5",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "17",
+          "name": "Latemar",
+          "up": 90,
+          "down": 60,
+          "liftType": "3",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "18",
+          "name": "Plateau",
+          "up": 50,
+          "down": null,
+          "liftType": "1",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "19",
+          "name": "Campo Scuola Latemar",
+          "up": 30,
+          "down": null,
+          "liftType": "1",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "27",
+          "name": "Pala di Santa",
+          "up": 80,
+          "down": null,
+          "liftType": "1",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "32",
+          "name": "Residenza - Passo Feudo",
+          "up": 75,
+          "down": 50,
+          "liftType": "5",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "42",
+          "name": "Campanil",
+          "up": 50,
+          "down": null,
+          "liftType": "2",
+          "zone": "Pampeago"
+        },
+        {
+          "nr": "20",
+          "name": "Oberholz",
+          "up": 120,
+          "down": 120,
+          "liftType": "5",
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "21",
+          "name": "Absam - Meierl",
+          "up": 80,
+          "down": null,
+          "liftType": "5",
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "22",
+          "name": "Ochsenweide",
+          "up": 110,
+          "down": 110,
+          "liftType": "3",
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "23",
+          "name": "Reiter Joch",
+          "up": 70,
+          "down": null,
+          "liftType": "1",
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "24",
+          "name": "Eben",
+          "up": 40,
+          "down": null,
+          "liftType": "1",
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "25",
+          "name": "Obereggen",
+          "up": 70,
+          "down": null,
+          "liftType": "5",
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "26",
+          "name": "Laner",
+          "up": 90,
+          "down": 90,
+          "zone": "Obereggen"
+        },
+        {
+          "nr": "30",
+          "name": "Predazzo - Gardonè",
+          "up": 100,
+          "down": 100,
+          "liftType": "3",
+          "zone": "Predazzo"
+        },
+        {
+          "nr": "31",
+          "name": "Gardonè - Passo Feudo",
+          "up": 80,
+          "down": 80,
+          "liftType": "5",
+          "zone": "Predazzo"
+        },
+        {
+          "nr": "33",
+          "name": "Campo Scuola Gardonè",
+          "up": 30,
+          "down": null,
+          "liftType": "5",
+          "zone": "Predazzo"
+        },
+        {
+          "nr": "36",
+          "name": "Deutschnofen",
+          "up": 27,
+          "down": null,
+          "liftType": "1",
+          "zone": "Nova Ponente / Deutschnofen"
+        },
+        {
+          "nr": "38",
+          "name": "Panorama",
+          "up": 27,
+          "down": null,
+          "liftType": "1",
+          "zone": "Monte San Pietro / Petersberg"
+        },
+        {
+          "nr": "44",
+          "name": "Castelir - Fassane",
+          "up": 90,
+          "down": 70,
+          "liftType": "3",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "45",
+          "name": "Fassane - Morea",
+          "up": 65,
+          "down": 60,
+          "liftType": "3",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "201",
+          "name": "Ronchi - Valbona",
+          "up": 120,
+          "down": 120,
+          "liftType": "3",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "202",
+          "name": "Valbona - Le Cune",
+          "up": 120,
+          "down": 120,
+          "liftType": "3",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "203",
+          "name": "Campo Scuola Valbona",
+          "up": 25,
+          "down": null,
+          "liftType": "1",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "204",
+          "name": "Valbona - Piavac",
+          "up": 70,
+          "down": null,
+          "liftType": "5",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "205",
+          "name": "Campo - Le Cune",
+          "up": 70,
+          "down": null,
+          "liftType": "5",
+          "zone": "Bellamonte - Alpe Lusia"
+        },
+        {
+          "nr": "206",
+          "name": "Campo - Laste",
+          "up": 80,
+          "down": null,
+          "liftType": "5",
+          "zone": "Bellamonte - Alpe Lusia"
+        }
+      ]
+    },
+    {
+      "id": "civetta",
+      "numericId": 9,
+      "name": "Civetta",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Alleghe - Piani di Pezzè",
+          "up": 71,
+          "down": 71,
+          "liftType": "3",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "3",
+          "name": "Piani di Pezzè - Col dei Baldi",
+          "up": 76,
+          "down": 76,
+          "liftType": "3",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "4",
+          "name": "Baby - Piani di Pezzè",
+          "up": 17,
+          "down": null,
+          "liftType": "5",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "5",
+          "name": "Pelmo",
+          "up": 26,
+          "down": null,
+          "liftType": "1",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "6",
+          "name": "Prà della Costa - Col Fioret",
+          "up": 47,
+          "down": null,
+          "liftType": "1",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "7",
+          "name": "Belamont",
+          "up": 31,
+          "down": null,
+          "liftType": "1",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "8",
+          "name": "Campo Scuola Mariaz",
+          "up": 19,
+          "down": null,
+          "liftType": "1",
+          "zone": "Alleghe"
+        },
+        {
+          "nr": "11",
+          "name": "Pescul - Fertazza",
+          "up": 74,
+          "down": 74,
+          "liftType": "5",
+          "zone": "Selva di Cadore"
+        },
+        {
+          "nr": "13",
+          "name": "Fertazza",
+          "up": 56,
+          "down": 56,
+          "liftType": "2",
+          "zone": "Selva di Cadore"
+        },
+        {
+          "nr": "14",
+          "name": "Lastie",
+          "up": 32,
+          "down": null,
+          "liftType": "1",
+          "zone": "Selva di Cadore"
+        },
+        {
+          "nr": "16",
+          "name": "Rio Canedo",
+          "up": 27,
+          "down": null,
+          "liftType": "1",
+          "zone": "Selva di Cadore"
+        },
+        {
+          "nr": "17",
+          "name": "Santa Fosca",
+          "up": 19,
+          "down": null,
+          "liftType": "1",
+          "zone": "Selva di Cadore"
+        },
+        {
+          "nr": "21",
+          "name": "Pioda",
+          "up": 50,
+          "down": null,
+          "liftType": "5",
+          "zone": "Palafavera"
+        },
+        {
+          "nr": "22",
+          "name": "Palafavera",
+          "up": 28,
+          "down": null,
+          "liftType": "1",
+          "zone": "Palafavera"
+        },
+        {
+          "nr": "23",
+          "name": "Pelmetto",
+          "up": 16,
+          "down": null,
+          "liftType": "1",
+          "zone": "Palafavera"
+        },
+        {
+          "nr": "31",
+          "name": "Pian del Crep",
+          "up": 61,
+          "down": 61,
+          "liftType": "3",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "32",
+          "name": "Delle Coste",
+          "up": 32,
+          "down": 32,
+          "liftType": "1",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "33",
+          "name": "Cristelin",
+          "up": 30,
+          "down": null,
+          "liftType": "5",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "35",
+          "name": "Valgranda",
+          "up": 40,
+          "down": null,
+          "liftType": "5",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "36",
+          "name": "Campetto",
+          "up": 16,
+          "down": null,
+          "liftType": "1",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "37",
+          "name": "Palma",
+          "up": 46,
+          "down": null,
+          "liftType": "1",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "38",
+          "name": "Casot di Pecol",
+          "up": 28,
+          "down": null,
+          "liftType": "1",
+          "zone": "Zoldo"
+        },
+        {
+          "nr": "39",
+          "name": "Col de la Grava",
+          "up": 53,
+          "down": null,
+          "liftType": "5",
+          "zone": "Zoldo"
+        }
+      ]
+    },
+    {
+      "id": "san-martino",
+      "numericId": 10,
+      "name": "San Martino di Castrozza / Passo Rolle",
+      "lifts": [
+        {
+          "nr": "1",
+          "name": "Rolle",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "2",
+          "name": "Castellazzo",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "5",
+          "name": "Cimon",
+          "up": 40,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "6",
+          "name": "Paradiso",
+          "up": 55,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "7",
+          "name": "Ferrari",
+          "up": 40,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "14",
+          "name": "Colbricon Express",
+          "up": 85,
+          "down": 80,
+          "liftType": "3"
+        },
+        {
+          "nr": "15",
+          "name": "Punta Ces",
+          "up": 75,
+          "down": 65,
+          "liftType": "2"
+        },
+        {
+          "nr": "18",
+          "name": "Coston",
+          "up": 65,
+          "down": 55,
+          "liftType": "1"
+        },
+        {
+          "nr": "26",
+          "name": "Valcigolera",
+          "up": 85,
+          "down": 80,
+          "liftType": "3"
+        },
+        {
+          "nr": "19",
+          "name": "Col Verde",
+          "up": 90,
+          "down": 80,
+          "liftType": "3"
+        },
+        {
+          "nr": "20",
+          "name": "Rosetta",
+          "up": 105,
+          "down": 95,
+          "liftType": "1"
+        },
+        {
+          "nr": "8",
+          "name": "Tognola",
+          "up": 140,
+          "down": 140,
+          "liftType": "3"
+        },
+        {
+          "nr": "9",
+          "name": "Scandola",
+          "up": 50,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "10",
+          "name": "Rododendro",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "11",
+          "name": "Conca",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "12",
+          "name": "Cigolera",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "13",
+          "name": "Baby Tognola",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "27",
+          "name": "Cima Tognola",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "24",
+          "name": "Prà Nasse",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        }
+      ]
+    },
+    {
+      "id": "gitschberg",
+      "numericId": 11,
+      "name": "Gitschberg Jochtal - Brixen",
+      "lifts": [
+        {
+          "nr": "57",
+          "name": "Terenten",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "100",
+          "name": "Plose 1",
+          "up": 130,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "101",
+          "name": "Plose 2",
+          "up": 120,
+          "down": 130,
+          "liftType": "3"
+        },
+        {
+          "nr": "102",
+          "name": "Schönboden",
+          "up": 65,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "103",
+          "name": "Plose - Rifugio CAI",
+          "up": 65,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "104",
+          "name": "Palmschoß",
+          "up": 190,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "105",
+          "name": "Rossalm",
+          "up": 65,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "106",
+          "name": "Pfannspitze",
+          "up": 250,
+          "down": 250,
+          "liftType": "3"
+        },
+        {
+          "nr": "114",
+          "name": "Randötsch",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "202",
+          "name": "Pobist",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "203",
+          "name": "Brunner",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "206",
+          "name": "Mitterwiese",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "207",
+          "name": "Nesselbahn",
+          "up": 125,
+          "down": 125,
+          "liftType": "3"
+        },
+        {
+          "nr": "207+211",
+          "name": "Berg/Nesselbahn",
+          "up": 250,
+          "down": 250,
+          "liftType": "3"
+        },
+        {
+          "nr": "208",
+          "name": "Gitschberg",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "211",
+          "name": "Bergbahn",
+          "up": 125,
+          "down": 125,
+          "liftType": "3"
+        },
+        {
+          "nr": "204",
+          "name": "Ski Express",
+          "up": 250,
+          "down": 250,
+          "liftType": "3"
+        },
+        {
+          "nr": "204b",
+          "name": "Ski Express (Mittelstation - Bergstation)",
+          "up": 125,
+          "down": null,
+          "liftType": "3"
+        },
+        {
+          "nr": "301",
+          "name": "Jochtal",
+          "up": 250,
+          "down": 250,
+          "liftType": "3"
+        },
+        {
+          "nr": "303",
+          "name": "Restaurantlift",
+          "up": 10,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "304",
+          "name": "Hinterberg",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "305",
+          "name": "Steinermandl",
+          "up": 50,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "306",
+          "name": "Tasa",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "307",
+          "name": "Schilling",
+          "up": 250,
+          "down": 250,
+          "liftType": "3"
+        },
+        {
+          "nr": "307b",
+          "name": "Schilling - Mittelstation",
+          "up": 125,
+          "down": null
+        },
+        {
+          "nr": "308",
+          "name": "Gaisjoch",
+          "up": 250,
+          "down": 250,
+          "liftType": "3"
+        },
+        {
+          "nr": "401",
+          "name": "Maders (Feldthurns)",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "501",
+          "name": "Filler (Villnöss)",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "701",
+          "name": "Rungg (Lüsen)",
+          "up": 30,
+          "down": null,
+          "liftType": "1"
+        }
+      ]
+    },
+    {
+      "id": "alpe-lusia",
+      "numericId": 12,
+      "name": "Alpe Lusia / San Pellegrino",
+      "lifts": [
+        {
+          "nr": "201",
+          "name": "Ronchi - Valbona",
+          "up": 120,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "202",
+          "name": "Valbona - Le Cune",
+          "up": 120,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "203",
+          "name": "Campo Scuola Valbona",
+          "up": 25,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "204",
+          "name": "Valbona - Piavac",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "205",
+          "name": "Campo - Le Cune",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "206",
+          "name": "Campo - Laste",
+          "up": 80,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "301",
+          "name": "Campigol",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "303",
+          "name": "Costabella",
+          "up": 100,
+          "down": 100,
+          "liftType": "1"
+        },
+        {
+          "nr": "302",
+          "name": "Capanna Margherita",
+          "up": 40,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "305",
+          "name": "Chiesetta 1-2",
+          "up": 50,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "306",
+          "name": "Gigante",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "308",
+          "name": "Cima Uomo",
+          "up": 70,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "309",
+          "name": "Col Margherita",
+          "up": 140,
+          "down": 140,
+          "liftType": "1"
+        },
+        {
+          "nr": "310",
+          "name": "Del Passo",
+          "up": 60,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "401",
+          "name": "Lago Cavia - Col Margherita",
+          "up": 110,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "403",
+          "name": "Lago Cavia - Laresei",
+          "up": 70,
+          "down": null,
+          "liftType": "2"
+        },
+        {
+          "nr": "405",
+          "name": "Saline - Laresei",
+          "up": 110,
+          "down": 110,
+          "liftType": "5"
+        },
+        {
+          "nr": "406",
+          "name": "Le Buse Campo Scuola",
+          "up": 60,
+          "down": null,
+          "liftType": "1"
+        },
+        {
+          "nr": "407",
+          "name": "Le Buse - Laresei",
+          "up": 100,
+          "down": null,
+          "liftType": "5"
+        },
+        {
+          "nr": "408",
+          "name": "Molino - Le Buse",
+          "up": 120,
+          "down": 120,
+          "liftType": "3"
+        },
+        {
+          "nr": "44",
+          "name": "Castelir - Fassane",
+          "up": 90,
+          "down": 70,
+          "liftType": "3"
+        },
+        {
+          "nr": "45",
+          "name": "Fassane - Morea",
+          "up": 65,
+          "down": 60,
+          "liftType": "3"
+        }
+      ]
+    }
+  ]
+}
