@@ -6,7 +6,9 @@ Browse lift point costs across all 12 Dolomiti Superski regions and plan your sk
 
 - **Lift data for 12 regions** — Alta Badia, Val Gardena, Val di Fassa, Arabba, 3 Zinnen, Kronplatz, Cortina, Val di Fiemme, Civetta, San Martino, Gitschberg, Alpe Lusia
 - **Day planner** — select lifts with direction (up/down) and adjust counts to see total point cost
-- **Search** — filter lifts across all regions by name, number, or zone
+- **Cost comparison** — see effective cost per point card tier and how it compares to high season day passes
+- **Pass pricing reference** — collapsible table of high/low season pass prices with per-day rates and early booking discounts
+- **Search** — filter lifts across all regions by name or number
 - **Shareable URLs** — plan state is encoded in the URL query string for easy sharing/bookmarking
 - **Preset plans** — quick-load Sellaronda clockwise and counter-clockwise tours
 
@@ -32,6 +34,9 @@ app/
   components/
     DayPlanner.tsx    # Main client component (search, regions, day plan, URL sync)
     LiftTable.tsx     # Lift table with add buttons
+    PlanEntry.tsx     # Individual lift entry card in the day plan
+    CostSummary.tsx   # Point card cost breakdown and day pass comparison
+    PassPrices.tsx    # Collapsible pass pricing reference table
 ```
 
 ## URL Format
