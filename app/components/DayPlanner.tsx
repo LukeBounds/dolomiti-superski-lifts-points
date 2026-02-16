@@ -4,6 +4,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useState, useEffect, useCallback, useMemo, Suspense } from "react";
 import type { Region, Lift, DayPlanEntry, LiftData, Preset, PresetData } from "../types";
 import LiftTable from "./LiftTable";
+import PassPrices from "./PassPrices";
 
 function encodePlan(entries: DayPlanEntry[], regions: Region[]): string {
   if (entries.length === 0) return "";
@@ -169,11 +170,13 @@ function DayPlannerInner({
 
   const euroCosts = useMemo(() => {
     if (totalPoints === 0) return null;
-    return [
-      { rate: "600 @ €50", cost: (totalPoints / 600) * 50 },
-      { rate: "1,000 @ €80", cost: (totalPoints / 1000) * 80 },
-      { rate: "2,100 @ €150", cost: (totalPoints / 2100) * 150 },
-    ];
+    return {
+      pointTiers: [
+        { label: "600 pts @ €50", cost: (totalPoints / 600) * 50 },
+        { label: "1,000 pts @ €80", cost: (totalPoints / 1000) * 80 },
+        { label: "2,100 pts @ €150", cost: (totalPoints / 2100) * 150 },
+      ],
+    };
   }, [totalPoints]);
 
   const toggleRegion = useCallback((regionId: string) => {
@@ -309,7 +312,7 @@ function DayPlannerInner({
 
       {/* Day planner sidebar */}
       {showPlanner && (
-        <div className="border-t border-zinc-200 bg-zinc-50 p-4 sm:p-6 lg:w-96 lg:border-l lg:border-t-0 dark:border-zinc-700 dark:bg-zinc-950">
+        <div className="border-t border-zinc-200 bg-zinc-50 p-4 sm:p-6 lg:w-[32rem] lg:border-l lg:border-t-0 dark:border-zinc-700 dark:bg-zinc-950">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-50">
               Day Plan
@@ -413,14 +416,17 @@ function DayPlannerInner({
                   </span>
                 </div>
                 {euroCosts && (
-                  <div className="mt-2 rounded-md bg-zinc-100 p-2 text-xs dark:bg-zinc-800">
-                    <div className="space-y-0.5 text-zinc-500 dark:text-zinc-400">
-                      {euroCosts.map((tier) => (
-                        <div key={tier.rate} className="flex justify-between">
-                          <span>{tier.rate}</span>
-                          <span className="font-mono">&euro;{tier.cost.toFixed(2)}</span>
-                        </div>
-                      ))}
+                  <div className="mt-2 space-y-2">
+                    <div className="rounded-md bg-zinc-100 p-2 text-xs dark:bg-zinc-800">
+                      <div className="mb-1 font-medium text-zinc-600 dark:text-zinc-300">Effective cost</div>
+                      <div className="space-y-0.5 text-zinc-500 dark:text-zinc-400">
+                        {euroCosts.pointTiers.map((tier) => (
+                          <div key={tier.label} className="flex justify-between">
+                            <span>{tier.label}</span>
+                            <span className="font-mono">&euro;{tier.cost.toFixed(2)}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 )}
@@ -447,6 +453,10 @@ function DayPlannerInner({
               </div>
             </>
           )}
+
+          <div className="mt-4">
+            <PassPrices />
+          </div>
         </div>
       )}
 
