@@ -4,7 +4,9 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useState, useEffect, useCallback, useMemo, useRef, Suspense } from "react";
 import type { Region, Lift, DayPlanEntry, LiftData, Preset, PresetData } from "../types";
 import LiftTable from "./LiftTable";
-import PassPrices, { PASS_PRICING } from "./PassPrices";
+import PassPrices from "./PassPrices";
+import PlanEntry from "./PlanEntry";
+import CostSummary from "./CostSummary";
 
 function encodePlan(entries: DayPlanEntry[], regions: Region[]): string {
   if (entries.length === 0) return "";
@@ -172,17 +174,6 @@ function DayPlannerInner({
     [entries]
   );
 
-  const euroCosts = useMemo(() => {
-    if (totalPoints === 0) return null;
-    return {
-      pointTiers: [
-        { label: "600 pts @ €50", cost: (totalPoints / 600) * 50 },
-        { label: "1,000 pts @ €80", cost: (totalPoints / 1000) * 80 },
-        { label: "2,100 pts @ €150", cost: (totalPoints / 2100) * 150 },
-      ],
-    };
-  }, [totalPoints]);
-
   const toggleRegion = useCallback((regionId: string) => {
     setExpandedRegions((prev) => {
       const next = new Set(prev);
@@ -342,132 +333,17 @@ function DayPlannerInner({
             <>
               <div className="mt-3 space-y-2">
                 {entries.map((entry, i) => (
-                  <div
+                  <PlanEntry
                     key={`${entry.regionId}-${entry.liftNr}-${entry.direction}-${i}`}
-                    className="rounded-md border border-zinc-200 bg-white p-2 text-sm dark:border-zinc-700 dark:bg-zinc-900"
-                  >
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="min-w-0">
-                        <div className="font-medium text-zinc-900 dark:text-zinc-100 truncate">
-                          {entry.liftName}
-                        </div>
-                        <div className="text-xs text-zinc-400">
-                          {regionNameMap.get(entry.regionId)} #{entry.liftNr}{" "}
-                          <span
-                            className={
-                              entry.direction === "up"
-                                ? "text-blue-500"
-                                : "text-emerald-500"
-                            }
-                          >
-                            {entry.direction === "up" ? "Up" : "Down"}
-                          </span>
-                        </div>
-                      </div>
-                      <button
-                        onClick={() => removeEntry(i)}
-                        className="shrink-0 text-zinc-300 hover:text-red-500 dark:text-zinc-600 dark:hover:text-red-400"
-                        title="Remove"
-                      >
-                        <svg
-                          className="h-4 w-4"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M6 18L18 6M6 6l12 12"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                    <div className="mt-1.5 flex items-center justify-between">
-                      <div className="flex items-center gap-1">
-                        <button
-                          onClick={() => updateCount(i, -1)}
-                          className="h-5 w-5 rounded bg-zinc-100 text-xs font-medium hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
-                        >
-                          -
-                        </button>
-                        <span className="w-6 text-center text-xs font-mono">
-                          {entry.count}
-                        </span>
-                        <button
-                          onClick={() => updateCount(i, 1)}
-                          className="h-5 w-5 rounded bg-zinc-100 text-xs font-medium hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
-                        >
-                          +
-                        </button>
-                      </div>
-                      <span className="font-mono text-xs font-medium text-zinc-600 dark:text-zinc-300">
-                        {entry.points * entry.count} pts
-                      </span>
-                    </div>
-                  </div>
+                    entry={entry}
+                    regionName={regionNameMap.get(entry.regionId)}
+                    onRemove={() => removeEntry(i)}
+                    onUpdateCount={(delta) => updateCount(i, delta)}
+                  />
                 ))}
               </div>
 
-              <div className="mt-4 border-t border-zinc-200 pt-3 dark:border-zinc-700">
-                <div className="flex items-center justify-between">
-                  <span className="font-semibold text-zinc-900 dark:text-zinc-50">
-                    Total
-                  </span>
-                  <span className="text-lg font-bold font-mono text-zinc-900 dark:text-zinc-50">
-                    {totalPoints} pts
-                  </span>
-                </div>
-                {euroCosts && (
-                  <div className="mt-2 space-y-2">
-                    <div className="rounded-md bg-zinc-100 p-2 text-xs dark:bg-zinc-800">
-                      <div className="mb-1 font-medium text-zinc-600 dark:text-zinc-300">Effective cost</div>
-                      <div className="space-y-0.5 text-zinc-500 dark:text-zinc-400">
-                        {euroCosts.pointTiers.map((tier) => (
-                          <div key={tier.label} className="flex justify-between">
-                            <span>{tier.label}</span>
-                            <span className="font-mono">&euro;{tier.cost.toFixed(2)}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="rounded-md bg-zinc-100 p-2 text-xs dark:bg-zinc-800">
-                      <div className="mb-1 font-medium text-zinc-600 dark:text-zinc-300">vs. high season day pass</div>
-                      <div className="space-y-0.5 text-zinc-500 dark:text-zinc-400">
-                        {euroCosts.pointTiers.map((tier) => {
-                          const cost = tier.cost;
-                          const perDayRates = PASS_PRICING.highSeason.map((h) => ({
-                            days: h.days,
-                            perDay: h.price / h.days,
-                          }));
-                          const passesBeaten = perDayRates.filter((r) => cost < r.perDay);
-                          const passesNotBeaten = perDayRates.filter((r) => cost >= r.perDay);
-                          const cheapestPassBeaten = passesBeaten.length > 0
-                            ? passesBeaten[passesBeaten.length - 1]
-                            : null;
-                          const cheapestPassNotBeaten = passesNotBeaten.length > 0
-                            ? passesNotBeaten[0]
-                            : null;
-                          return (
-                            <div key={tier.label}>
-                              {cheapestPassBeaten && !cheapestPassNotBeaten && (
-                                <span>On {tier.label.split("@")[0].trim()} card: cheaper than all pass options</span>
-                              )}
-                              {cheapestPassBeaten && cheapestPassNotBeaten && (
-                                <span>On {tier.label.split("@")[0].trim()} card: cheaper than {cheapestPassBeaten.days}-day <span className="font-mono">(&euro;{cheapestPassBeaten.perDay.toFixed(0)}/d)</span> but not {cheapestPassNotBeaten.days}-day <span className="font-mono">(&euro;{cheapestPassNotBeaten.perDay.toFixed(0)}/d)</span></span>
-                              )}
-                              {!cheapestPassBeaten && cheapestPassNotBeaten && (
-                                <span>On {tier.label.split("@")[0].trim()} card: more expensive than all pass options</span>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
+              <CostSummary totalPoints={totalPoints} />
 
               <div className="mt-3 flex gap-2">
                 <button
