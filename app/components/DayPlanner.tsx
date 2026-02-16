@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams, useRouter } from "next/navigation";
-import { useState, useEffect, useCallback, useMemo, Suspense } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef, Suspense } from "react";
 import type { Region, Lift, DayPlanEntry, LiftData, Preset, PresetData } from "../types";
 import LiftTable from "./LiftTable";
 import PassPrices from "./PassPrices";
@@ -66,6 +66,7 @@ function DayPlannerInner({
   );
   const [showPlanner, setShowPlanner] = useState(false);
   const [copied, setCopied] = useState(false);
+  const plannerRef = useRef<HTMLDivElement>(null);
 
   // Hydrate from URL on mount
   useEffect(() => {
@@ -159,6 +160,9 @@ function DayPlannerInner({
       setHydrated(true);
       setEntries(newEntries);
       setShowPlanner(true);
+      setTimeout(() => {
+        plannerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 100);
     },
     [liftData.regions]
   );
@@ -312,7 +316,7 @@ function DayPlannerInner({
 
       {/* Day planner sidebar */}
       {showPlanner && (
-        <div className="border-t border-zinc-200 bg-zinc-50 p-4 sm:p-6 lg:w-[32rem] lg:border-l lg:border-t-0 dark:border-zinc-700 dark:bg-zinc-950">
+        <div ref={plannerRef} className="border-t border-zinc-200 bg-zinc-50 p-4 sm:p-6 lg:w-[32rem] lg:border-l lg:border-t-0 dark:border-zinc-700 dark:bg-zinc-950">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-50">
               Day Plan
