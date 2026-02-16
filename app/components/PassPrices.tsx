@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const PASS_PRICING = {
+export const PASS_PRICING = {
   highSeason: [
     { days: 1, price: 86 },
     { days: 2, price: 170 },

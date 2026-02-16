@@ -4,7 +4,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useState, useEffect, useCallback, useMemo, useRef, Suspense } from "react";
 import type { Region, Lift, DayPlanEntry, LiftData, Preset, PresetData } from "../types";
 import LiftTable from "./LiftTable";
-import PassPrices from "./PassPrices";
+import PassPrices, { PASS_PRICING } from "./PassPrices";
 
 function encodePlan(entries: DayPlanEntry[], regions: Region[]): string {
   if (entries.length === 0) return "";
@@ -237,7 +237,7 @@ function DayPlannerInner({
             Dolomiti Superski Lift Points
           </h1>
           <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
-            Browse lift point costs and plan your day
+            Browse lift point costs and plan your day - is a points card right for you?
           </p>
         </header>
 
@@ -430,6 +430,39 @@ function DayPlannerInner({
                             <span className="font-mono">&euro;{tier.cost.toFixed(2)}</span>
                           </div>
                         ))}
+                      </div>
+                    </div>
+                    <div className="rounded-md bg-zinc-100 p-2 text-xs dark:bg-zinc-800">
+                      <div className="mb-1 font-medium text-zinc-600 dark:text-zinc-300">vs. high season day pass</div>
+                      <div className="space-y-0.5 text-zinc-500 dark:text-zinc-400">
+                        {euroCosts.pointTiers.map((tier) => {
+                          const cost = tier.cost;
+                          const perDayRates = PASS_PRICING.highSeason.map((h) => ({
+                            days: h.days,
+                            perDay: h.price / h.days,
+                          }));
+                          const passesBeaten = perDayRates.filter((r) => cost < r.perDay);
+                          const passesNotBeaten = perDayRates.filter((r) => cost >= r.perDay);
+                          const cheapestPassBeaten = passesBeaten.length > 0
+                            ? passesBeaten[passesBeaten.length - 1]
+                            : null;
+                          const cheapestPassNotBeaten = passesNotBeaten.length > 0
+                            ? passesNotBeaten[0]
+                            : null;
+                          return (
+                            <div key={tier.label}>
+                              {cheapestPassBeaten && !cheapestPassNotBeaten && (
+                                <span>On {tier.label.split("@")[0].trim()} card: cheaper than all pass options</span>
+                              )}
+                              {cheapestPassBeaten && cheapestPassNotBeaten && (
+                                <span>On {tier.label.split("@")[0].trim()} card: cheaper than {cheapestPassBeaten.days}-day <span className="font-mono">(&euro;{cheapestPassBeaten.perDay.toFixed(0)}/d)</span> but not {cheapestPassNotBeaten.days}-day <span className="font-mono">(&euro;{cheapestPassNotBeaten.perDay.toFixed(0)}/d)</span></span>
+                              )}
+                              {!cheapestPassBeaten && cheapestPassNotBeaten && (
+                                <span>On {tier.label.split("@")[0].trim()} card: more expensive than all pass options</span>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   </div>
