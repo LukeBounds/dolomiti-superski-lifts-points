@@ -314,6 +314,11 @@ function DayPlannerInner({
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-50">
               Day Plan
+              {entries.length > 0 && (
+                <span className="ml-2 text-sm font-normal text-zinc-400">
+                  ({entries.reduce((sum, e) => sum + e.count, 0)} lifts)
+                </span>
+              )}
             </h2>
             <button
               onClick={() => setShowPlanner(false)}
