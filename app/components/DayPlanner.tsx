@@ -198,8 +198,7 @@ function DayPlannerInner({
         lifts: r.lifts.filter(
           (l) =>
             l.name.toLowerCase().includes(q) ||
-            l.nr.toLowerCase().includes(q) ||
-            (l.zone && l.zone.toLowerCase().includes(q))
+            l.nr.toLowerCase().includes(q)
         ),
       }))
       .filter((r) => r.lifts.length > 0);
@@ -256,7 +255,7 @@ function DayPlannerInner({
         <div className="mb-6">
           <input
             type="text"
-            placeholder="Search lifts by name, number, or zone..."
+            placeholder="Search lifts by name or number..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full max-w-md rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm outline-none ring-blue-500 focus:ring-2 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
