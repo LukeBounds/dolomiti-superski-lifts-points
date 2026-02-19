@@ -1,13 +1,13 @@
 import { useMemo } from "react";
-import { PASS_PRICING } from "./PassPrices";
+import { PASS_PRICING, POINT_CARD_TIERS } from "../../data/pricing";
 
 export default function CostSummary({ totalPoints }: { totalPoints: number }) {
   const pointTiers = useMemo(
-    () => [
-      { label: "600 pts @ €50", cost: (totalPoints / 600) * 50 },
-      { label: "1,000 pts @ €80", cost: (totalPoints / 1000) * 80 },
-      { label: "2,100 pts @ €150", cost: (totalPoints / 2100) * 150 },
-    ],
+    () =>
+      POINT_CARD_TIERS.map((t) => ({
+        label: `${t.points.toLocaleString()} pts @ €${t.price}`,
+        cost: (totalPoints / t.points) * t.price,
+      })),
     [totalPoints]
   );
 
